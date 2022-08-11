@@ -1,12 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Person Management Application</title>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
-</body>
+  </head>
+  
+  <body>
+    <div class="nav-bar" >
+        <img src="./assets/logo.png" alt="logo" style="width: 80px;">
+        <ul  >
+          <!-- <li id="img"><img src="./assets/logo.png" alt="logo" style="width: 80px;"></li> -->
+          <li><a href="#about" >About</a></li>
+          <li><a href="#data" >Data</a></li>
+          <li><a href="#contact" >Contact</a></li>
+        </ul>
+    </div>
+    <div class="background">
+    <div id="about">
+        <!-- <div class="heading"><h3><u>About</u></h3></div> -->
+        
+        <p>
+      People management strategies can make all the difference between bad,
+      mediocre, good and great employee experience. New upgrades in the
+      functioning of HR systems and processes have altered the nature, extent
+      and scope of people management. That said, at the pivotal idea and aim
+      remains to manage people better in ways that work easier, enabled and
+      impactful.
+    </p>
+    </div>
+    <div id="data">
+        <button id="getData" onclick="get()">Fetch Users</button>
+        <ul id="displayData">
+            
+            
+        </ul>
+    </div>
+</div>
+    <hr>
+    <footer id="contact">
+        <div class="github">
+            <a href="https://github.com/LakshyaGarg26">
+        <img src="./assets/github-icon-removebg-preview.png" alt="git-hub" style="width:70px; padding: 15px ;">
+    </a>
+    </div>
+    <div class="linkedin">
+        <a href="https://www.linkedin.com/in/lakshya-garg-831384247/">
+        <img src="./assets/linkedin-removebg-preview.png" alt="linkedin" style="width: 70px;padding: 15px;">
+    </a>
+    </div>
+    <a href="https://www.instagram.com/">
+    <div class="instagram">
+        <img src="./assets/instagram-removebg-preview.png" alt="instagram" style="width: 65px;padding: 2px;">
+    </a>
+    </div>
+    <div class="gmail">
+        <a href="mailto:garglakshya2063@gmail.com">
+        <img src="./assets/gmail-removebg-preview.png" alt="mail" style="width: 40px; padding: 17px;">
+    </a>
+    </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
 </html>
