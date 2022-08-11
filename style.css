@@ -7,8 +7,11 @@
     background-color: black;
     color: white;
     display: flex;
-
+    padding-left: 20px;
     /* opacity: 0.8; */
+}
+#img{
+    padding-right: 780px;
 }
 
 .nav-bar ul{
@@ -41,6 +44,10 @@
     
 
 }
+.pic{
+    text-align: center;
+    padding-top: 20px;
+}
 #about{
     
     width: auto;
@@ -63,7 +70,7 @@
     /* background-color: red; */
     text-align: center;
     width: auto;
-    height: 1150px;
+    /* height: 1150px; */
     padding-bottom: 5px;
 }
 #contact{
