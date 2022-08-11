@@ -33,7 +33,7 @@ function get() {
      name.innerHTML = "Name : "+response[i].name;
      username.innerHTML = "Username : "+response[i].username;
      email.innerHTML = "Email : "+response[i].email;
-     companyName.innerHTML = "Company Name : s "+response[i].company.name;
+     companyName.innerHTML = "Company Name : "+response[i].company.name;
      info.appendChild(name);
      info.appendChild(username);
      info.appendChild(email);
