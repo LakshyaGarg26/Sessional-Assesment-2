@@ -8,7 +8,7 @@
     color: white;
     display: flex;
     padding-left: 20px;
-    /* opacity: 0.8; */
+    
 }
 #img{
     padding-right: 780px;
@@ -51,7 +51,7 @@
 #about{
     
     width: auto;
-    /* height: 250px; */
+    
     font-size: 30px;
     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     padding-left: 160px;
@@ -67,19 +67,18 @@
 
 }
 #data{
-    /* background-color: red; */
+   
     text-align: center;
     width: auto;
-    /* height: 1150px; */
+    
     padding-bottom: 5px;
 }
 #contact{
-    /* background-color: yellowgreen; */
+    
     width: auto;
     display: flex;
     justify-content: center;
-    /* padding: 20px; */
-    /* height: 100px; */
+  
 }
 .info{
     margin: 10px 250px 10px 250px;
